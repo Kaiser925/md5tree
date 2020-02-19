@@ -103,6 +103,11 @@ func MD5All(root string) (map[string][md5.Size]byte, error) {
 }
 
 func main() {
+	if len(os.Args) < 2 {
+		fmt.Print("list the MD5 value of directory's files.\n")
+		fmt.Println("usage: md5tree <directory list>")
+		return
+	}
 	m, err := MD5All(os.Args[1])
 	if err != nil {
 		fmt.Println(err)
