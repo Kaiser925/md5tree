@@ -6,6 +6,6 @@ See [Go Concurrency Patterns: Pipelines and cancellation](https://blog.golang.or
 ## Usage
 
 ~~~bash
-go install github.com/Kaiser925/md5tree
+go get github.com/Kaiser925/md5tree
 md5tree <dir>
 ~~~
