@@ -7,5 +7,5 @@ See [Go Concurrency Patterns: Pipelines and cancellation](https://blog.golang.or
 
 ~~~bash
 go get github.com/Kaiser925/md5tree
-md5tree <dir>
+md5tree [path] [-r]
 ~~~
