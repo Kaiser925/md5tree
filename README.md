@@ -1,6 +1,6 @@
 # md5tree
 
-Old repo, code has been moved to [toolbox](github.com/Kaiser925/)
+Old repo, code has been moved to [toolbox](https://github.com/Kaiser925/toolbox)
 
 md5tree prints the digest values for each regular file under that directory, sorted by path name.
 
